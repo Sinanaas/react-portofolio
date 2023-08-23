@@ -1,6 +1,7 @@
 import './App.css'
 import Topbar from './components/Topbar.js'
 import Home from './components/Home.js'
+import About from './components/About.js'
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
       </header>
       <div className="container"> 
         <Home/>
+      </div>
+      <div className="about-me">
+        <About/>
       </div>
     </div>
   );

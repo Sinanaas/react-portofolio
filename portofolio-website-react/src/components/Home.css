@@ -1,21 +1,17 @@
 .home-container {
     /* background-color: #FCF5E5; */
-    background-color: #16161D;
     background:
-    radial-gradient(circle, transparent 20%, #16161D 20%, #16161D 80%, transparent 80%, transparent),
-    radial-gradient(circle, transparent 20%, #16161D 20%, #16161D 80%, transparent 80%, transparent) 50px 50px,
-    linear-gradient(#24242D 8px, transparent 8px) 0 -4px,
-    linear-gradient(90deg, #24242D 8px, transparent 8px) -4px 0;
-    background-color: #16161D;
-    background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+        radial-gradient(circle, transparent 20%, #141414 20%, #141414 80%, transparent 80%, transparent),
+        radial-gradient(circle, transparent 20%, #141414 20%, #141414 80%, transparent 80%, transparent) 50px 50px,
+        linear-gradient(#24242D 4px, transparent 4px) 0 -2px,
+        linear-gradient(90deg, #24242D 4px, transparent 4px) -2px 0;
+        background-color: #141414;
+        background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
       
     height: 100vh;
     display: flex;
     color: #FCF5E5;
     width: 100%;
-    justify-content: space-between;
-    /* border: 1px solid #FCF5E5; */
-    box-shadow: 0 0 0 10px white;
 }
 
 .right-container, .left-container {
@@ -36,11 +32,10 @@
 }
 
 .greetings-text {
-    /* color: transparent; */
     font-size: 5rem;
     text-shadow: -1px -1px 0 #FCF5E5, 1px -1px 0 #FCF5E5, -1px 1px 0 #FCF5E5, 1px 1px 0 #FCF5E5;
-    color: #16161D;
     text-align: left;
+    color: #141414;
     display: flex;
     justify-content: flex-start;
     margin-bottom: 0.5rem;

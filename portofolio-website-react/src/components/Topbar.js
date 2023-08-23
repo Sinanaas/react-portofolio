@@ -13,7 +13,7 @@ function Topbar() {
         <div className="third-container">
             <ul>
                 <li><a href="./component/App.js">About</a></li>
-                <li><a href="./component/App.js">Work</a></li>
+                <li><a href="./component/App.js">Works</a></li>
                 <li><a href="./component/App.js">Contact</a></li>
             </ul>
         </div>
