@@ -109,6 +109,7 @@
     border: none;
     font-weight: 600;
     color: #2C2D2D;
+    cursor: pointer;
 }
 
 .all-container a {

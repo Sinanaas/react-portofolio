@@ -14,7 +14,7 @@ function Topbar() {
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#works">Works</a></li>
-                <li><a href="./component/App.js">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </div>
