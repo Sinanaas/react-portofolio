@@ -1,0 +1,117 @@
+.all-container .contacts-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color:  #2C2D2D;
+
+}
+
+.all-container .left-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.all-container .left-container h1 {
+    font-size: 7rem;
+    color: #FCF5E5;
+    text-align: right;
+}
+
+.all-container .right-container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.all-container .name-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.all-container .name-container label {
+    display: flex;
+}
+
+.all-container .message-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.all-container .message-container label {
+    display: flex;
+    left: 0;
+}
+
+.all-container .submit-container {
+    display: flex;
+}
+
+.all-container .footer {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    background-color: #2C2D2D;
+    color: #FCF5E5;
+    align-items: center;
+    width: 100%;
+}
+
+.all-container .contact-list {
+    list-style: none;
+    padding: 0;
+    flex-direction: row;
+    display: flex;
+    /* justify-content: space-between; */
+}
+  
+.all-container .contact-list li {
+    display: flex;
+    align-items: center;
+    margin: 0 3rem 3rem 0;
+    justify-content: center;
+}
+  
+.footer span {
+    margin-bottom: 3px;
+}
+
+.all-container .contact-text {
+    margin-left: 10px; /* Adjust as needed to increase spacing */
+}
+
+.all-container .submit-container {
+    display: flex;
+    width: 100%;
+}
+
+.all-container label {
+    color: #FCF5E5;
+}
+
+.all-container input, textarea {
+    background-color: #2C2D2D;
+    border: 1px solid #FCF5E5;
+    border-radius: 5px;
+    padding: .7rem;
+    color: #FCF5E5;
+    margin: .5rem 0 1rem 0;
+    max-width: 100%;
+}
+
+.all-container button {
+    padding: .4rem 1rem .4rem 1rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    color: #2C2D2D;
+}
+
+.all-container a {
+    text-decoration: none;
+    color: #FCF5E5;
+}

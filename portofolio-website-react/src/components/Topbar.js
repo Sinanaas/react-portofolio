@@ -12,8 +12,8 @@ function Topbar() {
         </div>
         <div className="third-container">
             <ul>
-                <li><a href="./component/App.js">About</a></li>
-                <li><a href="./component/App.js">Works</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Works</a></li>
                 <li><a href="./component/App.js">Contact</a></li>
             </ul>
         </div>

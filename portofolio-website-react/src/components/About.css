@@ -1,5 +1,8 @@
 .about-container {
     display: flex;
+    /* z-index: 10000; */
+    /* height: 100%; */
+    overflow: auto;
     justify-content: center;
     align-items: center;
     background-color:  #2C2D2D;
@@ -7,9 +10,9 @@
     height: 90vh;
     color: #F5EAB6;
     /* border-top: #0A0A0A 1px solid; */
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
     flex-direction: column;
-    --s: 100px; /* control the size */
+    --s: 56px; /* control the size */
   
     --_g: #2C2D2D 90deg,#24242D 0;
     background: 
