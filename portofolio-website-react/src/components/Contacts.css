@@ -31,6 +31,13 @@
     width: 100%;
 }
 
+.all-container .from-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+}
+
 .all-container .name-container label {
     display: flex;
 }
@@ -72,7 +79,7 @@
 .all-container .contact-list li {
     display: flex;
     align-items: center;
-    margin: 0 3rem 3rem 0;
+    margin: 0 3rem 2rem 0;
     justify-content: center;
 }
   

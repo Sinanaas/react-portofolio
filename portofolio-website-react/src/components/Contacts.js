@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react';
 import './Contacts.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
@@ -6,8 +6,23 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
-
+import emailjs from 'emailjs-com';
 export default function Contacts() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault(); // prevents the page from reloading when you hit “Send”
+ 
+    emailjs.sendForm('service_88ziwsr', 'template_5ty8935', form.current, 'MXZpCdpJz8PVU2j9_')
+      .then((result) => {
+        // console.log("Result:" + result)
+        alert("Successfully sent the email!")
+      }, (error) => {
+        console.log("Error:" + error)
+      });
+  };
+
   return (
     <div className="all-container">
       <div className="contacts-container">
@@ -15,9 +30,14 @@ export default function Contacts() {
           <h1>Send Me A Message</h1>
         </div>
         <div className="right-container">
+        <form ref={form} onSubmit={sendEmail}>
           <div className="name-container">
             <label htmlFor="name">Name</label>
             <input type="text" name="name" id="nameTxt" placeholder='Your name'/>
+          </div>
+          <div className="from-container">
+            <label htmlFor="from">From</label>
+            <input type="email" pattern=".+@gmail\.com" name="from" id="fromTxt" placeholder='Your gmail'/>
           </div>
           <div className="message-container">
             <label htmlFor="message">Message</label>
@@ -26,6 +46,7 @@ export default function Contacts() {
           <div className="submit-container">
             <button type='submit'>Submit</button>
           </div>
+        </form>
         </div>
       </div>
       <div className="footer">
