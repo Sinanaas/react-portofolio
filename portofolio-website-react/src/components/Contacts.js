@@ -9,6 +9,10 @@ import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import emailjs from 'emailjs-com';
 export default function Contacts() {
 
+  function refreshPage() {
+    window.location.reload(false);
+  }
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -16,8 +20,9 @@ export default function Contacts() {
  
     emailjs.sendForm('service_88ziwsr', 'template_5ty8935', form.current, 'MXZpCdpJz8PVU2j9_')
       .then((result) => {
-        // console.log("Result:" + result)
+        console.log("Result:" + result)
         alert("Successfully sent the email!")
+        refreshPage()
       }, (error) => {
         console.log("Error:" + error)
       });

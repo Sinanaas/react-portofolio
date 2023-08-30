@@ -4,6 +4,7 @@ import Home from './components/Home.js'
 import About from './components/About.js'
 import Works from './components/Works.js'
 import Contacts from './components/Contacts.js'
+import Gallery from './components/Gallery.js'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       </div>
       <div className="works" id='works'>
         <Works/>
+        <Gallery/>
       </div>
       <div className="contacts-container" id='contact'>
         <Contacts />
