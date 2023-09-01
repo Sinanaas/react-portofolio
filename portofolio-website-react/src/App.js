@@ -20,7 +20,6 @@ function App() {
       </div>
       <div className="works" id='works'>
         <Works/>
-        <Gallery/>
       </div>
       <div className="contacts-container" id='contact'>
         <Contacts />

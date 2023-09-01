@@ -1,14 +1,22 @@
 import React from 'react'
 import './Works.css'
+import Gallery from './Gallery.js'
+import Projects from './Projects.js'
+import Movies from './Movies.js'
 
 function Works() {
   return (
     <div className="works-container" id='works'>
-        <div className="recent-works">
-          <h1>MY RECENT WORKS</h1>
+        <div className="upper-container">
+            <h1>MY RECENT WORKS</h1>
+            <Projects/>
         </div>
-        <div className="gallery">
+        <div className="lower-container">
           <h1>MY GALLERY</h1>
+          <Gallery/>
+        </div>
+        <div className="movies-container">
+          <Movies/>
         </div>
     </div>
   )

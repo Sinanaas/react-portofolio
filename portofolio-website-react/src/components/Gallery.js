@@ -57,22 +57,24 @@ const Gallery = () => {
 
     return (
         <>
-        <div className={model? "model open" : "model"}>
-            <div className="kiri">
-                
-            </div>
-            <div className="tengah">
-                <img src={tempimgSrc}/>
-            </div>
-            <div className="kanan">
-                <FontAwesomeIcon icon={faClose} id='close-icon' size='4x' onClick={() => setModel(false)}/>
+        <div className="gallery-section">
+            <div className={model? "model open" : "model"}>
+                <div className="kiri">
+                    
+                </div>
+                <div className="tengah">
+                    <img src={tempimgSrc}/>
+                </div>
+                <div className="kanan">
+                    <FontAwesomeIcon icon={faClose} id='close-icon' size='4x' onClick={() => setModel(false)}/>
+                </div>
             </div>
         </div>
         <div className="gallery">
             {data.map((item, index) => {
                 return (
-                    <div className="pics" key={index} onClick={() => getImg(item.imgSrc)}>
-                        <img src={item.imgSrc} style={{ width: '100%' }}/>
+                    <div className="pics" style={{ width: '100%', height: '100%' }} onClick={() => getImg(item.imgSrc)}>
+                        <img src={item.imgSrc} style={{ width: '100%', height: '100%', objectFit: 'cover' }}/>
                     </div>
                 )
             })}

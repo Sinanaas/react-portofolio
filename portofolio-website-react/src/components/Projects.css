@@ -1,4 +1,4 @@
-.gallery {
+.project {
     /* -webkit-column-count: 3;
     -moz-column-count: 3; */
     column-count: 4;
@@ -10,20 +10,18 @@
     overflow: hidden;
 }
 
-.gallery .pics {
+.project .pics {
     -webkit-transition: all 350ms ease;
     transition: all 350ms ease;
     cursor: pointer;
     margin-bottom: 1rem;
     aspect-ratio: 1 / 1;
-    /* border: 1px solid red; */
 }
 
 .model img {
-    width: auto;
-    max-width: 100%;
+    max-width: 55vw;
     height: auto;
-    max-height: 100%;
+    max-height: 95vh;
     object-fit: cover;
     display: block;
     line-height: 0;
@@ -52,13 +50,6 @@
     z-index: 999;
 }
 
-.tengah {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40%;
-}
-
 .model.open {
     visibility: visible;
     opacity: 1;
@@ -66,18 +57,39 @@
 }
 
 
-.kiri {
-    width: 20%;
+.project-tengah {
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+    /* background-color: green; */
+    align-items: center;
+    justify-content: center;
+    text-align: start;
 }
 
-.kanan {
-    width: 20%;
+.project-tengah a {
+    /* text-decoration: none; */
+    margin-top: 1rem;
+    color: white;
+}
+
+.project-kiri {
+    width: 60%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-kanan {
+    /* background-color: pink; */
+    width: 5%;
     display: flex;
     justify-content: flex-end;
     align-items: start;
 }
 
-.kanan svg {
+.project-kanan svg {
     color: white;
     cursor: pointer;
     margin: 1rem 1rem 0 0;
