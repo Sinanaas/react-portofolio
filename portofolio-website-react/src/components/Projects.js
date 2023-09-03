@@ -16,7 +16,7 @@ import Img10 from '../assets/pepper-design.png'
 import Img11 from '../assets/qhealth.jpg'
 import Img12 from '../assets/sign.jpg'
 
-const Projetcs = () => {
+const Projects = () => {
     let data = [
         {
             id: 1,
@@ -108,7 +108,7 @@ const Projetcs = () => {
         <div className="project-section">
             <div className={model? "model open" : "model"}>
                 <div className="project-kiri">
-                    <img src={tempimgSrc}/>
+                    <img src={tempimgSrc} alt=''/>
                 </div>
                 <div className="project-tengah">
                     <h2>{tempDesc}</h2>
@@ -121,9 +121,9 @@ const Projetcs = () => {
             <div className="project">
                 {data.map((item, index) => {
                     return (
-                        <div className="close-up">
+                        <div className="close-up" key={item.id}>
                             <div className="pics" style={{ width: '100%', height: '100%' }} onClick={() => getAll(item)}>
-                                <img src={item.imgSrc} style={{ width: '100%', height: '100%', objectFit: 'cover' }}/>
+                                <img src={item.imgSrc} alt='' style={{ width: '100%', height: '100%', objectFit: 'cover' }}/>
                             </div>
                         </div>
                     )
@@ -133,4 +133,4 @@ const Projetcs = () => {
     )
 }
 
-export default Projetcs
+export default Projects

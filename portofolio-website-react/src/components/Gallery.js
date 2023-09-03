@@ -63,7 +63,7 @@ const Gallery = () => {
                     
                 </div>
                 <div className="tengah">
-                    <img src={tempimgSrc}/>
+                    <img src={tempimgSrc} alt=''/>
                 </div>
                 <div className="kanan">
                     <FontAwesomeIcon icon={faClose} id='close-icon' size='4x' onClick={() => setModel(false)}/>
@@ -73,8 +73,8 @@ const Gallery = () => {
         <div className="gallery">
             {data.map((item, index) => {
                 return (
-                    <div className="pics" style={{ width: '100%', height: '100%' }} onClick={() => getImg(item.imgSrc)}>
-                        <img src={item.imgSrc} style={{ width: '100%', height: '100%', objectFit: 'cover' }}/>
+                    <div className="pics" style={{ width: '100%', height: '100%' }} key={item.id} onClick={() => getImg(item.imgSrc)}>
+                        <img src={item.imgSrc} alt='' style={{ width: '100%', height: '100%', objectFit: 'cover' }}/>
                     </div>
                 )
             })}

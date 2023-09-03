@@ -42,7 +42,7 @@
     display: flex;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, .9);
-    transition: opacity .4s ease, visibility .4s ease, transform .5s ease-in-out;
+    transition: opacity .6s ease, visibility .4s ease, transform .5s ease-in-out;
     visibility: hidden;
     opacity: 0;
     transform: scale(0);
