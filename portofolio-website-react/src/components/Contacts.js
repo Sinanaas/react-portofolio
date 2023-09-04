@@ -6,6 +6,8 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faSpotify } from '@fortawesome/free-brands-svg-icons';
+import { faSteam } from '@fortawesome/free-brands-svg-icons';
 import emailjs from 'emailjs-com';
 export default function Contacts() {
 
@@ -76,7 +78,14 @@ export default function Contacts() {
           <li>
             <FontAwesomeIcon icon={faXTwitter} id="twitter-icon" />
             <a href="https://twitter.com/Sinanaas"><span className="contact-text">@Sinanaas</span></a>
-            
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faSpotify} id="spotify-icon" />
+            <a href="https://open.spotify.com/user/sinan_as?si=d150e4e48bd440a7"><span className="contact-text">Sinanaas</span></a>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faSteam} id="steam-icon" />
+            <a href="https://steamcommunity.com/profiles/76561198170196573/"><span className="contact-text">Pollux</span></a>
           </li>
         </ul>
       </div>

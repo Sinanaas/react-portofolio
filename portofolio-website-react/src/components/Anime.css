@@ -1,4 +1,4 @@
-.Movies {
+.Animes {
     /* padding: 1rem 5rem 3rem 5rem; */
     width: 100%;
     column-count: 4;
@@ -6,7 +6,7 @@
     overflow: hidden;
 }
 
-.Movies img {
+.Anime img {
     max-width: 19vw;
     height: auto;
     object-fit: cover;
@@ -16,13 +16,13 @@
     padding: 3rem 0 .4rem 0;
 }
 
-.Movies img:hover {
+.Animes img:hover {
     filter: opacity(.6);
     transition: filter .4s ease;
 }
 
 @media (max-width: 991px) {
-    .Movies {
+    .Animes {
         -webkit-column-count: 2;
         -moz-column-count: 2;
         column-count: 2;
@@ -30,7 +30,7 @@
 }
 
 @media (max-width: 480px) {
-    .Movies {
+    .Animes {
         -webkit-column-count: 1;
         -moz-column-count: 1;
         column-count: 1;
