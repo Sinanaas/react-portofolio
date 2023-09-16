@@ -1,7 +1,11 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .topbar {
     background-color: #141414;
     z-index: 999;
-    color: #FCF5E5;
+    color: #FCF5E5; 
     display: flex;
     align-items: center;
     justify-content: space-around;

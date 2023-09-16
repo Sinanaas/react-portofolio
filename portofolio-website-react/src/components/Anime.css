@@ -1,12 +1,32 @@
+.anime-container {
+    width: 100%;
+    background-color: red;
+}
+
 .Animes {
-    /* padding: 1rem 5rem 3rem 5rem; */
+    padding: 1rem 5rem 3rem 5rem;
     width: 100%;
     column-count: 4;
     column-width: 25%;
     overflow: hidden;
+    display: flex;
+    /* justify-content: center; */
 }
 
-.Anime img {
+.anime-card {
+    max-width: 19vw;
+    min-width: 19vw;
+    min-height: 50vh;
+    background-color: cyan;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 3rem 0;
+}
+
+.Animes img {
     max-width: 19vw;
     height: auto;
     object-fit: cover;

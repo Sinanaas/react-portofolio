@@ -20,7 +20,7 @@ function Works() {
           <Movies/>
         </div>
         <div className="anime-container">
-          <Anime/>
+          {/* <Anime/> */}
         </div>
     </div>
   )

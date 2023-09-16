@@ -10,6 +10,9 @@
     overflow: hidden;
 }
 
+.project-section {
+}
+
 .project .pics {
     -webkit-transition: all 350ms ease;
     transition: all 350ms ease;

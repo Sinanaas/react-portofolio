@@ -110,17 +110,14 @@ function Movies() {
       <div className="Movies">
         {movies.map((movie) => (
           <div key={movie.id} className="movie-card">
-            {/* <a href={`https://www.imdb.com/title/${movie.id}/`}> */}
-              {movie.poster_path ? (
-                
-                <img
-                  src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
-                  alt={`${movie.title} Poster`}
-                />
-              ) : (
-                <p>No poster available</p>
-              )}
-            {/* </a> */}
+            {movie.poster_path ? (
+              <img
+                src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
+                alt={`${movie.title} Poster`}
+              />
+            ) : (
+              <p>No poster available</p>
+            )}
             <h2>{movie.title}</h2>
           </div>
         ))}
