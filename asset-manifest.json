@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/react-portofolio/static/css/main.b06916f8.css",
+    "main.js": "/react-portofolio/static/js/main.57062384.js",
+    "static/js/787.73fd50ec.chunk.js": "/react-portofolio/static/js/787.73fd50ec.chunk.js",
+    "static/media/bagan.jpg": "/react-portofolio/static/media/bagan.c0d1000c5c53e525b613.jpg",
+    "static/media/pepper-design.png": "/react-portofolio/static/media/pepper-design.f2415ddeb79bf1b2cb0f.png",
+    "static/media/dhimti.png": "/react-portofolio/static/media/dhimti.fd69c4fb1fed6a18f4df.png",
+    "static/media/foto2.png": "/react-portofolio/static/media/foto2.f9a5235e3fbe7c351021.png",
+    "static/media/charon-library.png": "/react-portofolio/static/media/charon-library.26ef2e5d9b9943ab9c55.png",
+    "static/media/katekima.png": "/react-portofolio/static/media/katekima.5a038f20d2f46a41c3b0.png",
+    "static/media/himti1.jpg": "/react-portofolio/static/media/himti1.009adecebbb116f97d60.jpg",
+    "static/media/mercedes2.jpg": "/react-portofolio/static/media/mercedes2.953e8816468e256b7603.jpg",
+    "static/media/linguanesia.png": "/react-portofolio/static/media/linguanesia.3c49455f56d9ec070196.png",
+    "static/media/mesin.jpg": "/react-portofolio/static/media/mesin.9fff1737d900daa9689a.jpg",
+    "static/media/lomba.jpg": "/react-portofolio/static/media/lomba.392bec94641939e4d0f7.jpg",
+    "static/media/mercedes.jpg": "/react-portofolio/static/media/mercedes.8adf2c07c719208e5a11.jpg",
+    "static/media/eid.png": "/react-portofolio/static/media/eid.d19270ca4252484d3adc.png",
+    "static/media/orang.jpg": "/react-portofolio/static/media/orang.efe0c9714d0010f1cde4.jpg",
+    "static/media/pasar.jpg": "/react-portofolio/static/media/pasar.1c30eb4b5382452c18b9.jpg",
+    "static/media/stengah.jpg": "/react-portofolio/static/media/stengah.ff252137dfb490d4dc2e.jpg",
+    "static/media/lock.jpg": "/react-portofolio/static/media/lock.a8152b5986f0d171112b.jpg",
+    "static/media/qhealth.jpg": "/react-portofolio/static/media/qhealth.95b57d40233efc59ac82.jpg",
+    "static/media/koperasi.png": "/react-portofolio/static/media/koperasi.5f29a05585f477eac35c.png",
+    "static/media/oracle.png": "/react-portofolio/static/media/oracle.3375e0933876dace9923.png",
+    "static/media/sign.jpg": "/react-portofolio/static/media/sign.8756b62f01682766b628.jpg",
+    "index.html": "/react-portofolio/index.html",
+    "main.b06916f8.css.map": "/react-portofolio/static/css/main.b06916f8.css.map",
+    "main.57062384.js.map": "/react-portofolio/static/js/main.57062384.js.map",
+    "787.73fd50ec.chunk.js.map": "/react-portofolio/static/js/787.73fd50ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b06916f8.css",
+    "static/js/main.57062384.js"
+  ]
+}
